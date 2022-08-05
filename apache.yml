@@ -3,6 +3,6 @@
   become: True
   tasks:
     - name: Initiate ansible
-      command: "mvn clean install package"
+      command: "mvn -f /var/lib/jenkins/workspace/ansible-demo1 clean install package"
       
 ...
