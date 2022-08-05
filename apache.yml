@@ -3,5 +3,5 @@
   become: True
   tasks:
     - name: Initiate ansible
-      command: "mvn clean install package"
+      command: mvn clean install package
 ...
