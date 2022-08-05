@@ -1,0 +1,9 @@
+---
+- hosts: webservers 
+  become: True
+  tasks:
+    - name: Initiate ansible
+      debug:
+        msg: "Hi ansible"
+      
+...
