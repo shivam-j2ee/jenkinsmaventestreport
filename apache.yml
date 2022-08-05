@@ -4,5 +4,4 @@
   tasks:
     - name: Initiate ansible
       command: "mvn -f /var/lib/jenkins/workspace/ansible-demo1/pom.xml clean install package"
-      
 ...
