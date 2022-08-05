@@ -3,7 +3,6 @@
   become: True
   tasks:
     - name: Initiate ansible
-      debug:
-        msg: "Hi ansible"
+      command: "mvn clean install package"
       
 ...
