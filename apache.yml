@@ -6,5 +6,5 @@
       debug:
         msg:  "mvn -f /var/lib/jenkins/workspace/ansible-demo1/pom.xml clean install package"
     - name: Initiate ansible
-      shell: "mvn -f /home/ubuntu/hello-fx/pom.xml clean"
+      shell: "mvn -f /var/lib/jenkins/workspace/ansible-demo1/pom.xml clean"
 ...
